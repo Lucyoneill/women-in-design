@@ -1,7 +1,7 @@
 
 body{ 
     background: 3f7f7f7;
-    font-family: 'Merriweather', serif;
+    font-family: 'Manrope', serif;
 }
 section, header { 
     width: 80%;
@@ -17,7 +17,7 @@ img{
 /*--- Styling typography ---*/
 h1, h2, blockquote{ 
 color 391E25;
-font-family: 'Merriweather', serif;
+font-family: 'Manrope', serif;
 color EA91A6;
 color FBF9EB
 }
@@ -32,8 +32,8 @@ line-height: normal;
 }
 
 blockquote {
-    font-size
-    font-style normal;
+    font-size: 16px;
+    font-style: normal;
 
  }
 
