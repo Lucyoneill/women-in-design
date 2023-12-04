@@ -1,25 +1,39 @@
 
 body{ 
-    background: 3f7f7f7;
-    font-family: 'Manrope', serif;
-}
-section, header { 
+    background: #f7f7f7;
+    font-family: 'Manrope', serif; }
+
+article, header { 
     width: 80%;
-    max-width 800px;
-    margin: auto;
+    max-width: 800px;
+    margin: auto; }
+
+header {
+    margin: 6rem auto;
 }
+
 img{ 
     display: block;
     padding: 0;
     max-width: 100%;
 }
 
+.mainimg {
+    margin : 4em auto ;
+}
+.kernloose {letter-spacing: 5px}
+
+.imgbtm {margin-bottom: 4rem;}
+
+.topimg {
+    margin-top: 0;
+    margin-bottom: 4rem;
+}
+
 /*--- Styling typography ---*/
-h1, h2, blockquote{ 
-color 391E25;
-font-family: 'Manrope', serif;
-color EA91A6;
-color FBF9EB
+h1, h2, blockquote { 
+color:#391E25;
+font-family: 'Merriweather', serif;
 }
 
 
@@ -40,8 +54,7 @@ blockquote {
 /*-- jh+ef --*/
 h2 {
 color: #EA91A6;
-font-family: Manrope;
-font-size: 16px;
+font-size: 1.75rem;
 font-style: normal;
 font-weight: 800;
 line-height: normal;
@@ -52,7 +65,6 @@ line-height: normal;
 .hische {
 
 color: #391E25;
-font-family: Manrope;
 font-size: 16px;
 font-style: normal;
 font-weight: 700;
@@ -60,13 +72,13 @@ line-height: normal; }
 
 styling links
 a{ 
-    color #EA91A6;
+    color: #EA91A6;
     text-decoration:none;
 
 }
 
 a:hover {
-    color #FBF9EB;
+    color: #FBF9EB;
     border-bottom: 1px dotted;
 
 }
@@ -75,31 +87,139 @@ nav {
     top: o;
     left: o;
     margin: o;
-    width: 100%
-    background: 
+    width: 100%;
     padding: 2rem 0;
-    font size: 0.8 rem;
+    font-size: 0.8 rem;
 }
 
 nav ul { 
 text-align: right;
+text-transform: uppercase;
+letter-spacing: 1px;
 list-style-type: none;
+padding-right: 64px;
 }
 
 nav ul li { 
     display: inline;
-    margin: 20px 
+    margin: 10px 
 }
 
 nav a {
-color
-}
+color:#FBF9EB
+text-decoration: none;
+padding: 10px;
+margin: 0 10px;}
 
 nav a:hover {
-    border bottom: none;
-    transition: all 0.3s ease-in-out;
+    border-bottom: none;
+    transition: all 0.3s ease-in-out;}
+
+/*-- ALIGN IMAGES HORIZONTALLY --*/
+.imgsmall {
+    max-width: 800px;
+    margin: auto;
+    padding: 40px 0;
+    display: grid;
+    grid-gap: 20px;
+    /*---------TO CREATE A THREE COLUMN GRID REDUCE 375PX TO 250PX----------*/
+    grid-template-columns: repeat(auto-fill, minimax(375px, 1fr));
 }
 
+/*---- STYLING SCHER SECTION----*/
+.scher {
+    background: #EA91A6;
+    color:#FBF9EB;
+    padding: 6rem 0;
+    margin: 6rem 0;
+ }
+
+ .scher h2, blockquote, cite {
+    color: #FBF9EB;
+ }
+
+ .scher a {
+    color:#FBF9EB;
+    font-weight: bold;
+    border-bottom: 1px dotted;
+ }
+ 
+ .list li {
+    margin-bottom: 1rem;
+    list-style-type: none;
+    margin-left: -2.5rem;
+ }
+
+ footer {
+    background: #391E25;
+    text-align: center;
+    font-size: 0.8rem;
+    color:#FBF9EB
+    padding: 4rem 0 }
+
+    footer p {
+        margin: 0 12rem;}
+
+        footer a {
+            color:#FBF9EB}
+        
+            footer a:hover {
+                color: #EA91A6;
+                transition: all 0.3s ease-in-out;
+            }
+
+            .connections{
+                position: relative;
+                margin: 0 auto;}
+
+                .connections ul{
+                    margin: 0;
+                    padding: 0;}
+                
+                    .connections li{
+                        margin: 0 10px;
+                        padding: 0;
+                        list-style: none;
+                        display: inline-block; }
+
+                        .connections a:link{
+                            border-bottom: none; }
+
+                            .connections img, .connections svg{
+                                border: none;}
+                            
+                                .connections a:hover img, .connections a:hover svg{
+                                    border-bottom: none;}
+                                
+                                    .connections svg {
+                                        margin: 2rem auto;}
+                                    
+                                        .connections a:hover svg path {
+                                            fill: c2c2c2;
+                                            transition: all 0.2s ease-in-out;}
+                                        
+                                            footer .connections a:hover svg path {
+                                                fill: c2c2c2;
+                                                transition: all 0.2s ease-in-out;}
+                                            
+                    
+  /*--ADDING MEDIA QUERIES FOR DIFFERENT DEVICES--*/
+  @media (max-width: 600px)   {
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    £logo {
+        order: 2;
+        margin-bottom: 10px;
+    }
+    nav ul li {
+        display: list-item;
+        margin: 10px;
+    }
+  } 
+        
 .logo{
     font-size:
     text align: left;
