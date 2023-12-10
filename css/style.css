@@ -1,6 +1,6 @@
 
 body{ 
-    background: #f7f7f7;
+    background: #FBF9EB;
     font-family: 'Manrope', serif; }
 
 article, header { 
@@ -90,6 +90,7 @@ nav {
     width: 100%;
     padding: 2rem 0;
     font-size: 0.8 rem;
+    background-color: #391E25;
 }
 
 nav ul { 
@@ -210,7 +211,7 @@ nav a:hover {
         align-items: center;
     }
 
-    £logo {
+    #logo {
         order: 2;
         margin-bottom: 10px;
     }
@@ -228,10 +229,8 @@ nav a:hover {
 
 }
 footer{ 
-    background:
-    text-align: centre;
-    font-size:
-    color:
+
+    color: #f7f7f7;
     padding: 4rem 0 3rem o;
     margin-top: 4rem;
 }
