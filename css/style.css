@@ -1,6 +1,6 @@
 
 body{ 
-    background: #FBF9EB;
+    background: #f7f7f7;
     font-family: 'Manrope', serif; }
 
 article, header { 
@@ -78,7 +78,7 @@ a{
 }
 
 a:hover {
-    color: #FBF9EB;
+    color: #f7f7f7;
     border-bottom: 1px dotted;
 
 }
@@ -107,7 +107,7 @@ nav ul li {
 }
 
 nav a {
-color:#FBF9EB
+color: #f7f7f7;
 text-decoration: none;
 padding: 10px;
 margin: 0 10px;}
@@ -130,17 +130,17 @@ nav a:hover {
 /*---- STYLING SCHER SECTION----*/
 .scher {
     background: #EA91A6;
-    color:#FBF9EB;
+    color:#f7f7f7;
     padding: 6rem 0;
     margin: 6rem 0;
  }
 
  .scher h2, blockquote, cite {
-    color: #FBF9EB;
+    color: #f7f7f7;
  }
 
  .scher a {
-    color:#FBF9EB;
+    color:#f7f7f7;
     font-weight: bold;
     border-bottom: 1px dotted;
  }
@@ -155,14 +155,14 @@ nav a:hover {
     background: #391E25;
     text-align: center;
     font-size: 0.8rem;
-    color:#FBF9EB
+    color: #f7f7f7;
     padding: 4rem 0 }
 
     footer p {
         margin: 0 12rem;}
 
         footer a {
-            color:#FBF9EB}
+            color:#f7f7f7}
         
             footer a:hover {
                 color: #EA91A6;
