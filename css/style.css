@@ -29,11 +29,15 @@ img{
     margin-top: 0;
     margin-bottom: 4rem;
 }
-
+h1 {
+    font-size: 64px;
+    color:#391E25;
+}
 /*--- Styling typography ---*/
-h1, h2, blockquote { 
+ h2, blockquote { 
 color:#391E25;
 font-family: 'Manrope';
+font-size: 1.75 rem;
 }
 
 
@@ -152,7 +156,10 @@ nav a:hover {
     background-color: #391E25;
     color:#f7f7f7;
  }
-
+.ul li {
+    background-color: #391E25;
+    color:#f7f7f7;
+}
  footer {
     background: #391E25;
     text-align: center;
