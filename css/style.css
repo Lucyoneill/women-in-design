@@ -118,6 +118,7 @@ margin: 0 10px;}
 
 nav a:hover {
     border-bottom: none;
+    color: #EA91A6;
     transition: all 0.3s ease-in-out;}
 
 /*-- ALIGN IMAGES HORIZONTALLY --*/
