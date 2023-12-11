@@ -149,6 +149,8 @@ nav a:hover {
     margin-bottom: 1rem;
     list-style-type: none;
     margin-left: -2.5rem;
+    background-color: #391E25;
+    color:#f7f7f7;
  }
 
  footer {
