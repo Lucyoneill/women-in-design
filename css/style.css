@@ -30,7 +30,7 @@ img{
     margin-bottom: 4rem;
 }
 h1 {
-    font-size: 64px;
+    font-size: 50px;
     color:#391E25;
 }
 /*--- Styling typography ---*/
@@ -58,7 +58,7 @@ blockquote {
 /*-- jh+ef --*/
 h2 {
 color: #EA91A6;
-font-size: 1.75rem;
+font-size: 1.65rem;
 font-style: normal;
 font-weight: 800;
 line-height: normal;
@@ -74,7 +74,8 @@ font-style: normal;
 font-weight: 700;
 line-height: normal; }
 
-styling links
+
+
 a{ 
     color: #EA91A6;
     text-decoration:none;
@@ -123,14 +124,25 @@ nav a:hover {
 
 /*-- ALIGN IMAGES HORIZONTALLY --*/
 .imgsmall {
-    max-width: 800px;
+    max-width: 100px;
     margin: auto;
     padding: 40px 0;
     display: grid;
     grid-gap: 20px;
+
     /*---------TO CREATE A THREE COLUMN GRID REDUCE 375PX TO 250PX----------*/
     grid-template-columns: repeat(auto-fill, minimax(375px, 1fr));
 }
+
+
+
+.lastimg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
 
 /*---- STYLING SCHER SECTION----*/
 .scher {
@@ -154,7 +166,7 @@ nav a:hover {
     margin-bottom: 1rem;
     list-style-type: none;
     margin-left: -2.5rem;
-    background-color: #391E25;
+    background-color: #EA91A6;
     color:#f7f7f7;
  }
 .ul li {
